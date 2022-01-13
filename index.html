@@ -13,7 +13,15 @@
     <div id="app">
         <!-- chiamo proprietà message di data -->
         <h1>{{message}}</h1>
-
+        <hr>
+        <!-- bonus -->
+        <!-- aggiunto foto con v-bind -->
+        <img :src= "url" alt="">
+        <!-- bonus -->
+        <hr>
+        <!-- v-model ci permette di monitorare il value di input -->
+        <input type="text" v-model='nome'>
+        <span>Ciao {{nome}}</span>
     </div>
 
     
