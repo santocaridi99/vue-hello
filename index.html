@@ -15,13 +15,17 @@
         <h1>{{message}}</h1>
         <hr>
         <!-- bonus -->
-        <!-- aggiunto foto con v-bind -->
+        <!-- aggiunto foto con v-bind , ci permette di inserire variabile dentro un attributo tag -->
         <img :src= "url" alt="">
         <!-- bonus -->
         <hr>
         <!-- v-model ci permette di monitorare il value di input -->
         <input type="text" v-model='nome'>
         <span>Ciao {{nome}}</span>
+        <!-- test di un button -->
+        <hr>
+        <span>Inserisci prima il tuo nome sopra</span>
+        <button @click='saluta'>Cliccami !</button>
     </div>
 
     
